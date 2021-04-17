@@ -1,0 +1,20 @@
+.promo {
+    font-size: 10px;
+    background: linear-gradient(to right, #131313 50%, rgba (0, 0, 0, 0.12 ) 50% 100%);
+}
+
+.promo__container {
+
+}
+
+.promo__title {
+    font-weight: bold;
+    font-size: 100px;
+    position: absolute;
+    width: 170;
+}
+
+&::after {
+    content: '';
+    width: 0;
+}
