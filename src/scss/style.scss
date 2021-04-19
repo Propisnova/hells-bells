@@ -1,10 +1,13 @@
 @import 'variables';
 @import 'global';
-@import 'page-content';
 @import 'splide';
-
+@import 'header';
 @import 'blocks/page';
 @import 'blocks/page-header';
 @import 'blocks/page-footer';
-@import 'blocks/consultations';
-@import 'choose-your-style';
+@import 'blocks/page-content';
+@import 'blocks/consultations.scss'; 
+@import 'blocks/choose-your-style';
+
+
+@import 'blocks/promo';

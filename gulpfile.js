@@ -109,7 +109,7 @@ function serve() {
   ], compileStyles);
   watch([
     dir.src + '*.html',
-    dir.src + 'includes/*.html',
+    dir.src + '**/*.html',
   ], compileHTML);
   watch(dir.src + 'js/*.js', processJs);
   watch(dir.src + 'img/*.{jpg,jpeg,png,svg,webp,gif}', copyImages);
