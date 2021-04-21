@@ -104,8 +104,8 @@ function serve() {
     port: 8080,
   });
   watch([
-    dir.src + 'scss/*.scss',
-    dir.src + 'scss/blocks/*.scss',
+    dir.src + '*.scss',
+    dir.src + '**/*.scss',
   ], compileStyles);
   watch([
     dir.src + '*.html',

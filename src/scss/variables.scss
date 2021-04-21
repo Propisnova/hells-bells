@@ -4,7 +4,9 @@ $warning-color:       #fdc05d;
 $gray-light:          #f2f2f2;
 $gray:                #808080;
 $gray-dark:           #231f20;
+$text-black:          #13181B;
 $white:               #FFFFFF;
+$black:               #000000;
 
 $text-color:          $gray-dark;
 
@@ -12,7 +14,13 @@ $font-family:         -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue,
 $font-size:           14px;
 $line-height:         1.4;
 
-$screen-xs:           480px;
+$screen-xs:           100%;
 $screen-sm:           768px;
 $screen-md:           992px;
 $screen-lg:           1200px;
+
+$container-xs:           100%;
+$container-sm:           680px;
+$container-md:           960px;
+$container-lg:           1060px;
+

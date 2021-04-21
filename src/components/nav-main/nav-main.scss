@@ -1,0 +1,20 @@
+.nav-main {
+    flex-grow: 1;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    list-style: none;
+    flex-grow: 1;
+    }
+    
+.menu__item {
+    margin-left: 16px;
+    a {
+        color: $text-black;
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
