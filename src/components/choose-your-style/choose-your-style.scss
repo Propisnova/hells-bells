@@ -63,14 +63,16 @@
         }
 
         h3 {
+            font-family: Oswald;
+            font-weight: 500;
             position: absolute;
-            top: 50px;
+            top: 20%;
             left: 10px;
             right: 10px;
             z-index: 3;
             text-align: center;
             color: $white;
-            font-size: 18px;
+            font-size: 24px;
             transition: linear 250ms;
 
             // &::before {
