@@ -2,9 +2,11 @@
     display: flex;
     width: $container-lg;
     margin: 0 auto;
+    height: 100px;
 }
 
 .page-header__logo {
     width: 240px;
+    padding: 16px;
 }
 

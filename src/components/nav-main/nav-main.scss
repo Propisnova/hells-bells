@@ -5,13 +5,16 @@
 .menu {
     display: flex;
     justify-content: flex-end;
-    padding: 0;
+    padding: 20px;
     list-style: none;
     flex-grow: 1;
+ 
     }
     
 .menu__item {
     margin-left: 16px;
+   
+
     a {
         color: $text-black;
         text-decoration: none;
