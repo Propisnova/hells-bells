@@ -2,15 +2,12 @@
 @import 'fonts';
 @import 'global';
 @import 'splide';
-// @import 'header';
 @import 'blocks/page';
-// @import 'blocks/page-header';
-// @import 'blocks/page-footer';
 @import 'blocks/page-content';
-@import 'blocks/consultations.scss'; 
+@import '../components/consultations/consultations.scss'; 
 @import '../components/choose-your-style/choose-your-style.scss';
 @import '../components/nav-main/nav-main.scss'; 
 @import '../components/social-icons/social-icons.scss'; 
-@import '../components/header/header.scss';
+@import '../components/header.scss';
 @import '../components/footer/footer.scss';
-@import 'blocks/promo';
+@import '../components/promo/promo.scss';
