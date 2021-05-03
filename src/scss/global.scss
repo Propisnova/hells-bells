@@ -12,12 +12,6 @@ body {
     font-size: 16px;
 }
 
-// a {
-//     font-family: Oswald, sans-serif;
-//     font-size: 24px;
-//     line-height: 35px;
-// }
-
 .container {
     width: 1060px;
     margin: 0 auto;
@@ -37,4 +31,42 @@ body {
 .box {
   background-color: pink;
   height: 100px;
+}
+
+h2 {
+    font-family: Oswald;
+    font-weight: 500;
+    // left: 10px;
+    // right: 10px;
+    text-align: left;
+    color: $text-black;
+    font-size: 96px;
+    margin-left: -10;
+    // padding-left: 10px;
+    line-height: 0.9em;
+}
+
+    h5 {
+        font-family: Alegreya Sans;
+        font-weight: bold;
+        text-align: left;
+        color: $text-black;
+        font-size: 50px;
+        line-height: 0.9em;
+    }
+
+p {
+    font-family: Alegreya Sans;
+    font-size: 20px;
+    line-height: 1,5em;
+    font-weight: normal;
+    color: $text-black;
+}
+
+.col-5 {
+    width: 40.566%; 
+}
+
+.col-7 {
+    width: 57.358%;
 }
