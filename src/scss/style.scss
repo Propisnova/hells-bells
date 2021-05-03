@@ -6,8 +6,9 @@
 @import 'blocks/page-content';
 @import '../components/consultations/consultations.scss'; 
 @import '../components/choose-your-style/choose-your-style.scss';
-@import '../components/nav-main/nav-main.scss'; 
-@import '../components/social-icons/social-icons.scss'; 
-@import '../components/header.scss';
+@import '../components/header/nav-main/nav-main.scss'; 
+@import '../components/header/social-icons/social-icons.scss'; 
+@import '../scss/header.scss';
 @import '../components/footer/footer.scss';
 @import '../components/promo/promo.scss';
+@import '../components/works-gallery/works-gallery.scss'
