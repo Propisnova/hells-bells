@@ -86,12 +86,24 @@
 .works-gallery__link {
     font-family: Oswald; 
     font-size: 40px;
+    position: relative;
+    text-align: right;
     
         a {
         text-decoration: none;
-        font-weight: light;
+        font-weight: 300;
         color: $text-black;
-        text-align: left;
+        margin-right: 44px;
         }
 }
+.works-gallery__link::after {
+    content: "";
+    background-image: url(img\right-arrow.svg);
+    position: absolute;
+    background-size: 100%;
+    width: 44px;
+    height: 44px;
+    z-index: 1;
+    
 
+}

@@ -1,7 +1,9 @@
 .advantages {
+    top: 150px;
     margin-bottom: 150px;
     width: $container-lg;
     margin: auto;
+    position: relative;
 }
 
 // .advantages__list {
@@ -38,6 +40,11 @@
 
     p {
         margin-top: 0;
+    }
+
+    a {
+        font-weight: bold;
+        color: $text-black;
     }
 }
 

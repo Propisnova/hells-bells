@@ -20,7 +20,6 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-  
     margin-left: -10px;
     margin-right: -10px;
 
@@ -48,19 +47,27 @@ h2 {
     margin-top: 150px;
 }
 
-    h5 {
-        font-family: Alegreya Sans;
-        font-weight: bold;
-        text-align: left;
-        color: $text-black;
-        font-size: 50px;
-        line-height: 0.9em;
-    }
+h4 {
+    font-family: Oswald; 
+    font-size: 40px;
+    line-height: 1.2em;
+    font-weight: 300;
+    color: $text-black;
+}
+
+h5 {
+    font-family: Alegreya Sans;
+    font-weight: bold;
+    text-align: left;
+    color: $text-black;
+    font-size: 50px;
+    line-height: 0.9em;
+}
 
 p {
     font-family: Alegreya Sans;
     font-size: 20px;
-    line-height: 1,5em;
+    line-height: 1.5em;
     font-weight: normal;
     color: $text-black;
 }
