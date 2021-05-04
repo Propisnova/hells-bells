@@ -1,11 +1,12 @@
 .sign-up {
     width: 520px;
-    position: relative;
     text-align: center;
-    top: 250px;
+    // top: 250px;
+    margin-top: 450px;
+    padding-top: 167px;
     margin-bottom: 150px;
     margin: auto;
-    position: relative;
+    // position: relative;
 }
 
 .sign-up__title {
@@ -18,29 +19,17 @@
 
 .sign-up__form {
     width: 520px;
-    position: relative;
+    height: 36px;
+    // position: relative;
     text-align: center;
     top: 15px;
     margin-bottom: 150px;
     margin: 15px;
-    position: relative;
 }
 
 .p-small {
-    // font-family: Alegreya Sans;
     font-size: 14px;
-    // line-height: 1.2em;
-    // color: $text-black;
-    // font-weight: 500;
 }
-
-// .sign-up__button {
-//     background-color: $button-black;
-// }
-
-// .sign-up__button a:hover {
-//     background: $gray;
-// }
 
 input[type=text] {
     width: 520px;
