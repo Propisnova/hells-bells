@@ -1,34 +1,14 @@
 .advantages {
-    top: 150px;
+    top: 250px;
     margin-bottom: 150px;
     width: $container-lg;
     margin: auto;
     position: relative;
 }
 
-// .advantages__list {
-//     padding-left: 0;
-//     padding-left: 4px;
-// }
-
-// .advantages__item { 
-//     display: flex;
-//     flex-direction: row;
-//     flex-wrap: wrap;
-//     justify-content: space-between;
-//     margin-left: -10;
-//     margin-right: -10;
-//     list-style: none;
-//     align-items: flex-start;
-//     text-decoration: none;
-//     font-size: 0;
-//     padding: 0;
-// }
-
 .advantages__list {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .advantages__item {

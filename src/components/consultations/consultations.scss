@@ -4,6 +4,7 @@
     text-align: center;
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-right: 4px;
     position: fixed;
     right: 0;
     top: 50px;
@@ -13,7 +14,6 @@
     font-family: Oswald, sans-serif;
     font-size: 24px;
     margin-right: 4px;
-
 }
 
 .consultations a {
@@ -21,7 +21,13 @@
     text-decoration: none;
     position: fixed;
 }
+
+button a:hover {
+    background: $gray;
+}
+
 .consultations span {
     writing-mode: vertical-lr;
     transform: scale(-1);
+    padding-bottom: 5px;
 }
